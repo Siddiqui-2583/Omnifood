@@ -520,7 +520,10 @@ footer{
     list-style: none;
     float: right;
 }
-
+.foot{
+        background-attachment: fixed;
+        position: sticky;
+}
 .footer-nav li,
 .social-icons li{
     display: inline-block;
@@ -540,6 +543,7 @@ footer{
     color: #848484;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
+    position: sticky;
 }
 
 .footer-nav li a:hover,
